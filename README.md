@@ -45,7 +45,7 @@ The workflow has 6 tasks that run in sequence:
 
 ### 1. DAG Graph View - All Tasks Successful
 
-![DAG Graph](images/dag_graph.png)
+![DAG Graph](images/graph.png)
 
 This screenshot shows the Airflow Graph view after the pipeline finished running. All 6 tasks are green (success). The first 4 tasks run in sequence, then the last 2 tasks (extra features) run in parallel after the optimal number of clusters is determined.
 
