@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Airflow
+logs/
+plugins/
+config/
+working_data/
+__pycache__/
+*.pyc
+.env
+
+# Models
+*.sav
+dags/model/
+
+# Docker
+postgres-db-volume/
